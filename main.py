@@ -1,18 +1,20 @@
-massage=("hello ayoubi")
-print(massage)
+w = "Hello Ayoubi"
+print(w)
 
-age=0
+a = int(input(" "))
 
-while age <3:
-    password=int(input("  "))
+E = 1 / 2    
+D = 1 + 2    
+K = 1 - 2    
+L = 1 * 2    
 
-    if password==1234:
-        print("yes code")
-        break
-
-    else:
-        print("no code")
-        age=age + 1
-
-if age ==3:
-    print("you ban")
+if E == a:
+    print("0.5")
+if D == a:
+    print("3")
+if K == a:
+    print("-1")
+if L == a:
+    print("2")
+else:
+    print("error")
